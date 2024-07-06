@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+
+
+:root{
+ --color-primary:hsl(210 100% 50%);
+ --color-secundary:hsl(210 100% 13%);
+}
+
+.container{
+    max-width:1800px;
+    margin: auto;
+}
+
+.btn{
+    padding: 0.90rem 3rem;
+    border: 2px solid var(--color-primary);
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.link{
+    color: var(--color-primary);
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.scroll{
+    opacity: 0;
+    transform: translateX(-90px);
+    transition: .4s;
+}
+
+.scroll.visible{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.color-blue{
+    color: var(--color-secundary);
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+}
+
+ul{
+    list-style: none;
+}
+
+
+button,
+input,textarea{
+  border: none;
+  outline: none;
+  background-color: none;
+}
+
+
+button{
+    cursor: pointer;
+}
+
+
+img{
+    max-width: 100%;
+    display: block;
+}

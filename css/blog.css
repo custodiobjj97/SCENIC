@@ -1,0 +1,35 @@
+.blog{
+    padding: 220px 12px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 2rem;
+}
+
+.blog-text h3{
+    margin-bottom: 1.8rem;
+    font-size: 2.11rem;
+}
+
+.blog-text p{
+    margin-bottom: 1.8rem;
+    font-size: 1.1rem;
+    color: rgb(182, 164, 164);
+}
+
+
+
+
+@media (min-width:1042px){
+    .blog{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .blog-text p{
+        font-size: 1.15rem;
+    }
+
+    .blog-image img{
+        height: 700px;
+    }
+}

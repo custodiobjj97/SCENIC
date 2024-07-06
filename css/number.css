@@ -1,0 +1,36 @@
+.number{
+    padding: 200px 12px;
+
+}
+
+
+.list-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.7rem;
+}
+
+.list-number .value{
+    display: block;
+}
+
+.list-number li{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.list-number li i{
+    font-size: 4rem;
+    color: var(--color-primary);
+}
+
+
+@media (min-width:1042px){
+    .list-number{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}

@@ -1,0 +1,32 @@
+.home{
+    padding: 290px 12px;
+    background: linear-gradient(to right,#0000008c,#0000006e),url('../images/home\ \(2\).jpg') no-repeat center;
+    background-size:cover ;
+    color: #fff;
+    text-align: center;
+
+}
+
+.home h1{
+    font-size: 2.66rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+.home p{
+    font-size: .90rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+@media (min-width:1042px){
+    .home h1{
+        font-size: 4rem;
+    }
+
+    .home p{
+        font-size: 1.1rem;
+    }
+}
